@@ -2,6 +2,7 @@
 (function () {
   'use strict';
 
+  /* Fallback dictionaries; content/site.json is the source of truth (editable in /admin) */
   var RU = {
   "about.eyebrow": "Обо мне",
   "about.h2": "Сначала стратегия. Потом контент, который решает задачи бизнеса.",
@@ -137,6 +138,8 @@
 
   var PRICES = {"reels": {"AED": [4500, 3500], "USD": [1225, 950], "RUB": [99000, 77000]}, "growth": {"AED": [6900, 5900], "USD": [1880, 1600], "RUB": [152000, 130000]}, "funnel": {"AED": [12500, 9900], "USD": [3400, 2700], "RUB": [275000, 218000]}};
 
+  var EN_EXT = {};   /* EN overrides from site.json */
+
   var CUR_FMT = {
     AED: function (n) { return 'AED ' + n.toLocaleString('en-US'); },
     USD: function (n) { return '$' + n.toLocaleString('en-US'); },
@@ -151,7 +154,7 @@
   var lang = 'en';
   function setLang(next) {
     lang = next === 'ru' ? 'ru' : 'en';
-    var dict = lang === 'ru' ? RU : EN;
+    var dict = lang === 'ru' ? RU : Object.assign({}, EN, EN_EXT);
     nodes.forEach(function (el) {
       var k = el.getAttribute('data-i18n');
       if (dict[k] != null) el.innerHTML = dict[k];
@@ -180,6 +183,7 @@
   /* ---- currency: AED default for every language, not persisted ---- */
   function setCur(cur) {
     if (!PRICES.reels[cur]) cur = 'AED';
+    if (typeof curCur !== 'undefined') curCur = cur;
     var fmt = CUR_FMT[cur];
     Object.keys(PRICES).forEach(function (plan) {
       var pair = PRICES[plan][cur];
@@ -196,6 +200,46 @@
   document.querySelectorAll('[data-cur]').forEach(function (b) {
     b.addEventListener('click', function () { setCur(b.getAttribute('data-cur')); });
   });
+
+  /* ---- load editable content (published from /admin) ---- */
+  var curCur = 'AED';
+  fetch('content/site.json', { cache: 'no-cache' }).then(function (r) {
+    if (!r.ok) throw new Error(r.status);
+    return r.json();
+  }).then(function (site) {
+    var sec, k;
+    if (site.texts) {
+      for (sec in site.texts) {
+        for (k in site.texts[sec]) {
+          var pair = site.texts[sec][k];
+          if (pair.ru != null) RU[sec + '.' + k] = pair.ru;
+          if (pair.en != null) EN_EXT[sec + '.' + k] = pair.en;
+        }
+      }
+    }
+    if (site.nums) {
+      document.querySelectorAll('[data-num]').forEach(function (el) {
+        var v = site.nums[el.getAttribute('data-num')];
+        if (v != null) el.textContent = v;
+      });
+    }
+    if (site.images) {
+      document.querySelectorAll('[data-img]').forEach(function (el) {
+        var src = site.images[el.getAttribute('data-img')];
+        if (src && el.getAttribute('src') !== src) el.setAttribute('src', src);
+      });
+    }
+    if (site.prices) {
+      for (var plan in site.prices) {
+        PRICES[plan] = {};
+        for (var cur in site.prices[plan]) {
+          PRICES[plan][cur] = [site.prices[plan][cur].old, site.prices[plan][cur].new];
+        }
+      }
+    }
+    setLang(lang);
+    setCur(curCur);
+  }).catch(function () { /* offline/file preview: fallback dictionaries already applied */ });
 
   /* ---- burger / sheet ---- */
   var sheet = document.getElementById('sheet');
