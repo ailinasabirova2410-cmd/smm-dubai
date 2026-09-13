@@ -1,83 +1,5 @@
 {
   "texts": {
-    "brand": {
-      "name": {
-        "ru": "Айлина Сабирова",
-        "en": "Ailina Sabirova"
-      },
-      "role": {
-        "ru": "SMM И DIGITAL-МАРКЕТИНГ",
-        "en": "SMM & DIGITAL MARKETING"
-      }
-    },
-    "nav": {
-      "about": {
-        "ru": "Обо мне",
-        "en": "About"
-      },
-      "services": {
-        "ru": "Услуги",
-        "en": "Services"
-      },
-      "work": {
-        "ru": "Работы",
-        "en": "Work"
-      },
-      "pricing": {
-        "ru": "Тарифы",
-        "en": "Pricing"
-      },
-      "contact": {
-        "ru": "Контакты",
-        "en": "Contact"
-      }
-    },
-    "cta": {
-      "tg": {
-        "ru": "Написать в Telegram",
-        "en": "Message on Telegram"
-      },
-      "results": {
-        "ru": "Смотреть результаты",
-        "en": "See the results"
-      },
-      "call": {
-        "ru": "Позвонить",
-        "en": "Call"
-      }
-    },
-    "hero": {
-      "eyebrow": {
-        "ru": "SMM · DIGITAL-СТРАТЕГИЯ · AI · ДУБАЙ",
-        "en": "SMM · DIGITAL STRATEGY · AI · DUBAI"
-      },
-      "h1": {
-        "ru": "Я превращаю соцсети в систему роста.<br><span class=\"on\">Стратегия, контент и маркетинг, которые работают на бизнес.</span>",
-        "en": "I turn social media into a growth system.<br><span class=\"on\">Strategy, content and marketing that drive business.</span>"
-      },
-      "lede": {
-        "ru": "SMM, контент-стратегия, creative direction и AI-автоматизация для брендов, которым нужны охваты, сильное позиционирование и продажи.",
-        "en": "SMM, content strategy, creative direction and AI automation for brands that want stronger reach, positioning and sales."
-      }
-    },
-    "stat": {
-      "reach": {
-        "ru": "охват за 3 месяца",
-        "en": "reach in 3 months"
-      },
-      "leads": {
-        "ru": "лида по 80 AED",
-        "en": "leads at 80 AED each"
-      },
-      "views": {
-        "ru": "просмотров у одного Reels",
-        "en": "views on a single Reel"
-      },
-      "reels": {
-        "ru": "снятых Reels",
-        "en": "Reels produced"
-      }
-    },
     "about": {
       "eyebrow": {
         "ru": "Обо мне",
@@ -96,120 +18,20 @@
         "en": "I don’t just execute briefs — I find the opportunity, build the system and lead the process."
       }
     },
-    "svc": {
-      "eyebrow": {
-        "ru": "Что я делаю",
-        "en": "What I do"
+    "brand": {
+      "name": {
+        "ru": "Айлина Сабирова",
+        "en": "Ailina Sabirova"
       },
-      "h2": {
-        "ru": "Пять направлений — каждое до результата.",
-        "en": "Five things, done properly."
-      },
-      "1t": {
-        "ru": "Стратегия соцсетей",
-        "en": "Social Media Strategy"
-      },
-      "1d": {
-        "ru": "Стратегия, позиционирование, контент-направления и точки роста под задачи бизнеса.",
-        "en": "Strategy, positioning, content pillars and growth direction built around your business goals."
-      },
-      "2t": {
-        "ru": "Контент-системы и виральность",
-        "en": "Content Systems & Virality"
-      },
-      "2d": {
-        "ru": "Reels, сторителлинг, виральные механики и контент-системы для роста охватов и внимания.",
-        "en": "Reels, storytelling, viral mechanics and content systems designed to grow reach and attention."
-      },
-      "3t": {
-        "ru": "Креативное руководство",
-        "en": "Creative Direction"
-      },
-      "3d": {
-        "ru": "Концепции, референсы, сценарии, ТЗ и координация креативной команды.",
-        "en": "Concepts, references, scripts, production briefs and coordination of the creative team."
-      },
-      "4t": {
-        "ru": "AI-контент и автоматизация",
-        "en": "AI Content & Automation"
-      },
-      "4d": {
-        "ru": "AI-процессы, которые сокращают ручную работу, ускоряют продакшн и автоматизируют публикации.",
-        "en": "AI-powered workflows that reduce manual work, speed up production and simplify publishing."
-      },
-      "5t": {
-        "ru": "Digital-маркетинг и аналитика",
-        "en": "Digital Marketing & Analytics"
-      },
-      "5d": {
-        "ru": "Исследование аудитории, воронки, эффективность кампаний и оптимизация на основе бизнес-метрик.",
-        "en": "Audience research, funnels, campaign performance and optimization based on business metrics."
-      }
-    },
-    "proc": {
-      "eyebrow": {
-        "ru": "Как идёт работа",
-        "en": "How the work runs"
-      },
-      "h2": {
-        "ru": "От стратегии до измеримого результата.",
-        "en": "From strategy to measurable results."
-      },
-      "1t": {
-        "ru": "Исследование и стратегия",
-        "en": "Research & Strategic Direction"
-      },
-      "1d": {
-        "ru": "Тренды, конкуренты и то, на чём ваша аудитория реально останавливается.",
-        "en": "Trends, competitors, and what your audience actually stops for."
-      },
-      "2t": {
-        "ru": "Планирование контента и кампаний",
-        "en": "Content & Campaign Planning"
-      },
-      "2d": {
-        "ru": "Понятная система на месяц: темы, форматы, кампании и ритм публикаций.",
-        "en": "A clear monthly system: topics, formats, campaigns and publishing rhythm."
-      },
-      "3t": {
-        "ru": "Управление креативным продакшном",
-        "en": "Creative Production Management"
-      },
-      "3d": {
-        "ru": "Концепции, сценарии, референсы, ТЗ и координация креативной команды.",
-        "en": "Concepts, scripts, references, production briefs and coordination of the creative team."
-      },
-      "4t": {
-        "ru": "Дистрибуция и автоматизация",
-        "en": "Distribution & Automation"
-      },
-      "4d": {
-        "ru": "Планирование публикаций, система дистрибуции и AI-автоматизация для стабильной работы контента.",
-        "en": "Content scheduling, publishing systems and AI automation for a consistent workflow."
-      },
-      "5t": {
-        "ru": "Анализ эффективности",
-        "en": "Performance Analysis"
-      },
-      "5d": {
-        "ru": "Анализ результатов, поиск точек роста и оптимизация стратегии на основе данных.",
-        "en": "Tracking performance, identifying what drives growth and optimizing the strategy based on data."
-      }
-    },
-    "work": {
-      "eyebrow": {
-        "ru": "Избранные работы",
-        "en": "Selected work"
-      },
-      "h2": {
-        "ru": "Четыре аккаунта — четыре разные задачи.",
-        "en": "Four accounts, four different jobs."
+      "role": {
+        "ru": "SMM И DIGITAL-МАРКЕТИНГ",
+        "en": "SMM & DIGITAL MARKETING"
       }
     },
     "c1": {
-      "tag": {
-        "ru": "Онлайн-платформа недвижимости · Дубай",
-        "en": "Online real estate platform · Dubai"
+      "cap": {
+        "ru": "подписчиков, органика",
+        "en": "followers, organic"
       },
       "l1": {
         "ru": "Контент-стратегия на Reels с реальными людьми",
@@ -227,15 +49,15 @@
         "ru": "Воронка в Facebook Ads: 680 лидов по 80 AED",
         "en": "Facebook Ads funnel: 680 leads at 80 AED each"
       },
-      "cap": {
-        "ru": "подписчиков, органика",
-        "en": "followers, organic"
+      "tag": {
+        "ru": "Онлайн-платформа недвижимости · Дубай",
+        "en": "Online real estate platform · Dubai"
       }
     },
     "c2": {
-      "tag": {
-        "ru": "Агентство недвижимости · Дубай",
-        "en": "Real estate agency · Dubai"
+      "cap": {
+        "ru": "подписчиков",
+        "en": "followers"
       },
       "l1": {
         "ru": "Полный визуальный ребрендинг профиля",
@@ -249,15 +71,19 @@
         "ru": "Новый видеоформат в таргете снизил цену лида на 30%",
         "en": "New video format in targeting cut lead cost by 30%"
       },
-      "cap": {
-        "ru": "подписчиков",
-        "en": "followers"
+      "tag": {
+        "ru": "Агентство недвижимости · Дубай",
+        "en": "Real estate agency · Dubai"
       }
     },
     "c3": {
-      "tag": {
-        "ru": "Личный бренд · Дубай",
-        "en": "Personal brand · Dubai"
+      "cap": {
+        "ru": "AI-аватар для личного бренда юриста, Дубай",
+        "en": "AI avatar for a lawyer's personal brand, Dubai"
+      },
+      "h": {
+        "ru": "Личный бренд юриста",
+        "en": "Lawyer's personal brand"
       },
       "l1": {
         "ru": "AI-аватар вместо живой съемки — клиенту физически некогда было сниматься",
@@ -271,23 +97,19 @@
         "ru": "Система регулярных публикаций в Threads вместо разовых роликов",
         "en": "A regular Threads publishing system instead of one-off videos"
       },
+      "tag": {
+        "ru": "Личный бренд · Дубай",
+        "en": "Personal brand · Dubai"
+      },
       "to": {
         "ru": "0 заявок → стабильный поток<br>140K охвата органически за 2 месяца, без рекламы",
         "en": "0 leads → steady inflow<br>140K organic reach in 2 months, zero ad spend"
-      },
-      "cap": {
-        "ru": "AI-аватар для личного бренда юриста, Дубай",
-        "en": "AI avatar for a lawyer's personal brand, Dubai"
-      },
-      "h": {
-        "ru": "Личный бренд юриста",
-        "en": "Lawyer's personal brand"
       }
     },
     "c4": {
-      "tag": {
-        "ru": "Цветы · Дубай",
-        "en": "Flower shop · Dubai"
+      "cap": {
+        "ru": "подписчиков",
+        "en": "followers"
       },
       "l1": {
         "ru": "Пересобрала визуальную концепцию аккаунта — единый стиль вместо разрозненных карточек",
@@ -297,37 +119,15 @@
         "ru": "Полный цикл видео от идеи до готового Reels, плюс живая съемка на ивентах бренда",
         "en": "Full video production from concept to finished Reels, plus live coverage of brand events"
       },
-      "cap": {
-        "ru": "подписчиков",
-        "en": "followers"
-      }
-    },
-    "num": {
-      "eyebrow": {
-        "ru": "@proffer.ae · через 3 месяца",
-        "en": "@proffer.ae · after 3 months"
-      },
-      "h2": {
-        "ru": "Цифры, которые за этим стоят.",
-        "en": "The numbers behind it."
-      },
-      "1": {
-        "ru": "Охват — почти удвоился за счёт вирусных Reels",
-        "en": "Reach — nearly doubled on the back of viral Reels"
-      },
-      "2": {
-        "ru": "Заходы в профиль — стабильный рост весь период",
-        "en": "Profile visits — steady growth across the period"
-      },
-      "3": {
-        "ru": "Клики по ссылке — в 3,5 раза больше на точном оффере и таргете",
-        "en": "Link clicks — 3.5× on a sharper offer and tighter targeting"
+      "tag": {
+        "ru": "Цветы · Дубай",
+        "en": "Flower shop · Dubai"
       }
     },
     "c5": {
-      "tag": {
-        "ru": "Лид-кампания",
-        "en": "Lead generation campaign"
+      "cap": {
+        "ru": "за лид",
+        "en": "per lead"
       },
       "h": {
         "ru": "650+ лидов с апреля по июнь",
@@ -345,15 +145,15 @@
         "ru": "Исследование аудитории, тесты креативов, воронка",
         "en": "Audience research, creative testing, funnel setup"
       },
-      "cap": {
-        "ru": "за лид",
-        "en": "per lead"
+      "tag": {
+        "ru": "Лид-кампания",
+        "en": "Lead generation campaign"
       }
     },
     "c6": {
-      "tag": {
-        "ru": "Библиотека Reels",
-        "en": "Reels library"
+      "cap": {
+        "ru": "максимум просмотров у одного видео",
+        "en": "top single-video views"
       },
       "h": {
         "ru": "300+ Reels в разных нишах",
@@ -371,117 +171,9 @@
         "ru": "Еда, ритейл, офлайн-бизнес",
         "en": "Food, retail, offline businesses"
       },
-      "cap": {
-        "ru": "максимум просмотров у одного видео",
-        "en": "top single-video views"
-      }
-    },
-    "pr": {
-      "eyebrow": {
-        "ru": "Тарифы",
-        "en": "Pricing"
-      },
-      "h2": {
-        "ru": "Три формата работы.",
-        "en": "Three ways to work together."
-      },
-      "lede": {
-        "ru": "Помесячно, без долгих обязательств. Рекламный бюджет оплачивается отдельно, напрямую площадке.",
-        "en": "Monthly, no long lock-in. Ad budget is paid separately, directly to the platform."
-      },
-      "per": {
-        "ru": "в месяц",
-        "en": "per month"
-      },
-      "pop": {
-        "ru": "Чаще выбирают",
-        "en": "Most chosen"
-      },
-      "note": {
-        "ru": "Цены за месяц, без рекламного бюджета. Не знаете, что выбрать? Пришлите аккаунт — скажу честно, что нужно именно вам.",
-        "en": "Prices are per month and exclude ad spend. Not sure which fits? Send your account — I'll tell you honestly which one you need."
-      }
-    },
-    "p1": {
-      "for": {
-        "ru": "Контент-стратегия и креативная система бренда: от позиционирования до готового контента.",
-        "en": "A complete content system: from concept and production planning to 8–10 ready-to-publish Reels."
-      },
-      "f1": {
-        "ru": "AI-инструменты и автоматизация контент-процессов",
-        "en": "AI tools and content process automation"
-      },
-      "f2": {
-        "ru": "Контент-пиллары, рубрики, виральные и продающие механики",
-        "en": "Content pillars, recurring formats, viral and sales-driven mechanics"
-      },
-      "f3": {
-        "ru": "Концепции, сценарии, референсы и ТЗ для продакшна",
-        "en": "Concepts, scripts, references and production briefs"
-      },
-      "f4": {
-        "ru": "Монтаж и упаковка до 8–10 Reels",
-        "en": "Editing and packaging of up to 8–10 Reels"
-      }
-    },
-    "p2": {
-      "for": {
-        "ru": "Полная система social media: стратегия, контент, дистрибуция и постоянная оптимизация.",
-        "en": "A complete growth system: from strategy and content funnels to 12–15 Reels, Stories and performance optimization."
-      },
-      "f1": {
-        "ru": "Аналитика, оптимизация и AI-автоматизация",
-        "en": "Analytics, optimization and AI automation"
-      },
-      "f2": {
-        "ru": "Стратегия соцсетей под цели бизнеса и рост бренда",
-        "en": "Social media strategy aligned with business goals and brand growth"
-      },
-      "f3": {
-        "ru": "Контент-система: рубрики, форматы, виральность и механики продаж",
-        "en": "Content system: pillars, recurring formats, virality and sales mechanics"
-      },
-      "f4": {
-        "ru": "Креативное руководство и управление контент-процессом",
-        "en": "Creative direction and content process management"
-      },
-      "f5": {
-        "ru": "Ежедневные Stories + стратегический сторителлинг",
-        "en": "Daily Stories + strategic storytelling"
-      },
-      "f6": {
-        "ru": "12–15 единиц контента + монтаж и финальная упаковка",
-        "en": "12–15 content pieces + editing and final packaging"
-      }
-    },
-    "p3": {
-      "for": {
-        "ru": "Полная маркетинговая система для создания спроса, привлечения лидов и роста бизнеса.",
-        "en": "A complete marketing system built to generate demand, leads and measurable business growth."
-      },
-      "f1": {
-        "ru": "Исследование рынка, конкурентов и целевой аудитории",
-        "en": "Market, competitor & target audience research"
-      },
-      "f2": {
-        "ru": "B2B и B2C стратегия привлечения клиентов и лид-воронки",
-        "en": "B2B & B2C acquisition strategy and lead funnels"
-      },
-      "f3": {
-        "ru": "Офферы, путь клиента и стратегия конверсии в продажи",
-        "en": "Offers, customer journey & sales conversion strategy"
-      },
-      "f4": {
-        "ru": "Платное продвижение, партнёрства и аналитика эффективности",
-        "en": "Paid media, partnerships & performance analytics"
-      },
-      "f5": {
-        "ru": "Стратегия выхода на рынок и маркетинговые кампании",
-        "en": "Go-to-market & campaign strategy"
-      },
-      "f6": {
-        "ru": "Распределение маркетингового бюджета и контроль ROI",
-        "en": "Marketing budget allocation & ROI tracking"
+      "tag": {
+        "ru": "Библиотека Reels",
+        "en": "Reels library"
       }
     },
     "ct": {
@@ -493,35 +185,45 @@
         "ru": "Пришлите аккаунт - получите честный ответ.",
         "en": "Send your account - get an honest answer."
       },
+      "ig": {
+        "ru": "Instagram",
+        "en": "Instagram"
+      },
       "lede": {
         "ru": "Расскажите, что продаёте и где застряли. Скажу, с чего бы начала и стоит ли вообще за это платить.",
         "en": "Tell me what you sell and where you're stuck. I'll say what I'd do first, and whether it's worth paying me for it at all."
-      },
-      "tg": {
-        "ru": "@ailnsabr — отвечаю быстрее всего",
-        "en": "@ailnsabr — fastest reply"
       },
       "mail": {
         "ru": "Почта",
         "en": "Email"
       },
-      "ig": {
-        "ru": "Instagram",
-        "en": "Instagram"
+      "tg": {
+        "ru": "@ailnsabr — отвечаю быстрее всего",
+        "en": "@ailnsabr — fastest reply"
+      }
+    },
+    "cta": {
+      "results": {
+        "ru": "Смотреть результаты",
+        "en": "See the results"
+      },
+      "tg": {
+        "ru": "Написать в Telegram",
+        "en": "Message on Telegram"
+      },
+      "wa": {
+        "ru": "Написать в WhatsApp",
+        "en": "Message on WhatsApp"
       }
     },
     "f": {
-      "name": {
-        "ru": "Ваше имя",
-        "en": "Your name"
-      },
       "contact": {
         "ru": "Telegram или WhatsApp",
         "en": "Telegram or WhatsApp"
       },
-      "niche": {
-        "ru": "Ваша ниша",
-        "en": "Your niche"
+      "msg": {
+        "ru": "Что нужно?",
+        "en": "What do you need?"
       },
       "n1": {
         "ru": "Luxury, fashion и lifestyle-бренды",
@@ -547,17 +249,21 @@
         "ru": "Другое",
         "en": "Other"
       },
-      "msg": {
-        "ru": "Что нужно?",
-        "en": "What do you need?"
+      "name": {
+        "ru": "Ваше имя",
+        "en": "Your name"
       },
-      "send": {
-        "ru": "Отправить заявку",
-        "en": "Send request"
+      "niche": {
+        "ru": "Ваша ниша",
+        "en": "Your niche"
       },
       "note": {
         "ru": "Приходит сразу мне лично. Никаких рассылок и спама.",
         "en": "Comes straight to me. No newsletters, no spam."
+      },
+      "send": {
+        "ru": "Отправить заявку",
+        "en": "Send request"
       },
       "sent": {
         "ru": "<b>Спасибо — заявка отправлена.</b><br>Отвечу в Telegram в течение нескольких часов.",
@@ -569,12 +275,306 @@
         "ru": "© 2026 Айлина Сабирова · Стратегия соцсетей и Digital-маркетинг · Дубай, ОАЭ",
         "en": "© 2026 Ailina Sabirova · Social Media Strategy & Digital Marketing · Dubai, UAE"
       }
+    },
+    "hero": {
+      "eyebrow": {
+        "ru": "SMM · DIGITAL-СТРАТЕГИЯ · AI · ДУБАЙ",
+        "en": "SMM · DIGITAL STRATEGY · AI · DUBAI"
+      },
+      "h1": {
+        "ru": "Соцсети, которые приводят клиентов.<br><span class=\"on\">Стратегия, контент и AI-система — под ключ.</span>",
+        "en": "Social media that brings clients.<br><span class=\"on\">Strategy, content and an AI system — end to end.</span>"
+      },
+      "lede": {
+        "ru": "SMM, контент-стратегия, creative direction и AI-автоматизация для брендов, которым нужны охваты, сильное позиционирование и продажи.",
+        "en": "SMM, content strategy, creative direction and AI automation for brands that want stronger reach, positioning and sales."
+      }
+    },
+    "nav": {
+      "about": {
+        "ru": "Обо мне",
+        "en": "About"
+      },
+      "contact": {
+        "ru": "Контакты",
+        "en": "Contact"
+      },
+      "pricing": {
+        "ru": "Тарифы",
+        "en": "Pricing"
+      },
+      "services": {
+        "ru": "Услуги",
+        "en": "Services"
+      },
+      "work": {
+        "ru": "Работы",
+        "en": "Work"
+      }
+    },
+    "num": {
+      "1": {
+        "ru": "Охват — почти удвоился за счёт вирусных Reels",
+        "en": "Reach — nearly doubled on the back of viral Reels"
+      },
+      "2": {
+        "ru": "Заходы в профиль — стабильный рост весь период",
+        "en": "Profile visits — steady growth across the period"
+      },
+      "3": {
+        "ru": "Клики по ссылке — в 3,5 раза больше на точном оффере и таргете",
+        "en": "Link clicks — 3.5× on a sharper offer and tighter targeting"
+      },
+      "eyebrow": {
+        "ru": "@proffer.ae · через 3 месяца",
+        "en": "@proffer.ae · after 3 months"
+      },
+      "h2": {
+        "ru": "Цифры, которые за этим стоят.",
+        "en": "The numbers behind it."
+      }
+    },
+    "p1": {
+      "f1": {
+        "ru": "AI-инструменты и автоматизация контент-процессов",
+        "en": "AI tools and content process automation"
+      },
+      "f2": {
+        "ru": "Контент-пиллары, рубрики, виральные и продающие механики",
+        "en": "Content pillars, recurring formats, viral and sales-driven mechanics"
+      },
+      "f3": {
+        "ru": "Концепции, сценарии, референсы и ТЗ для продакшна",
+        "en": "Concepts, scripts, references and production briefs"
+      },
+      "f4": {
+        "ru": "Монтаж и упаковка до 8–10 Reels",
+        "en": "Editing and packaging of up to 8–10 Reels"
+      },
+      "for": {
+        "ru": "Контент-стратегия и креативная система бренда: от позиционирования до готового контента.",
+        "en": "A complete content system: from concept and production planning to 8–10 ready-to-publish Reels."
+      }
+    },
+    "p2": {
+      "f1": {
+        "ru": "Аналитика, оптимизация и AI-автоматизация",
+        "en": "Analytics, optimization and AI automation"
+      },
+      "f2": {
+        "ru": "Стратегия соцсетей под цели бизнеса и рост бренда",
+        "en": "Social media strategy aligned with business goals and brand growth"
+      },
+      "f3": {
+        "ru": "Контент-система: рубрики, форматы, виральность и механики продаж",
+        "en": "Content system: pillars, recurring formats, virality and sales mechanics"
+      },
+      "f4": {
+        "ru": "Креативное руководство и управление контент-процессом",
+        "en": "Creative direction and content process management"
+      },
+      "f5": {
+        "ru": "Ежедневные Stories + стратегический сторителлинг",
+        "en": "Daily Stories + strategic storytelling"
+      },
+      "f6": {
+        "ru": "12–15 единиц контента + монтаж и финальная упаковка",
+        "en": "12–15 content pieces + editing and final packaging"
+      },
+      "for": {
+        "ru": "Полная система social media: стратегия, контент, дистрибуция и постоянная оптимизация.",
+        "en": "A complete growth system: from strategy and content funnels to 12–15 Reels, Stories and performance optimization."
+      }
+    },
+    "p3": {
+      "f1": {
+        "ru": "Исследование рынка, конкурентов и целевой аудитории",
+        "en": "Market, competitor & target audience research"
+      },
+      "f2": {
+        "ru": "B2B и B2C стратегия привлечения клиентов и лид-воронки",
+        "en": "B2B & B2C acquisition strategy and lead funnels"
+      },
+      "f3": {
+        "ru": "Офферы, путь клиента и стратегия конверсии в продажи",
+        "en": "Offers, customer journey & sales conversion strategy"
+      },
+      "f4": {
+        "ru": "Платное продвижение, партнёрства и аналитика эффективности",
+        "en": "Paid media, partnerships & performance analytics"
+      },
+      "f5": {
+        "ru": "Стратегия выхода на рынок и маркетинговые кампании",
+        "en": "Go-to-market & campaign strategy"
+      },
+      "f6": {
+        "ru": "Распределение маркетингового бюджета и контроль ROI",
+        "en": "Marketing budget allocation & ROI tracking"
+      },
+      "for": {
+        "ru": "Полная маркетинговая система для создания спроса, привлечения лидов и роста бизнеса.",
+        "en": "A complete marketing system built to generate demand, leads and measurable business growth."
+      }
+    },
+    "pr": {
+      "eyebrow": {
+        "ru": "Тарифы",
+        "en": "Pricing"
+      },
+      "h2": {
+        "ru": "Три формата работы.",
+        "en": "Three ways to work together."
+      },
+      "lede": {
+        "ru": "Помесячно, без долгих обязательств. Рекламный бюджет оплачивается отдельно, напрямую площадке.",
+        "en": "Monthly, no long lock-in. Ad budget is paid separately, directly to the platform."
+      },
+      "note": {
+        "ru": "Цены за месяц, без рекламного бюджета. Не знаете, что выбрать? Пришлите аккаунт — скажу честно, что нужно именно вам.",
+        "en": "Prices are per month and exclude ad spend. Not sure which fits? Send your account — I'll tell you honestly which one you need."
+      },
+      "per": {
+        "ru": "в месяц",
+        "en": "per month"
+      },
+      "pop": {
+        "ru": "Чаще выбирают",
+        "en": "Most chosen"
+      }
+    },
+    "proc": {
+      "1d": {
+        "ru": "Тренды, конкуренты и то, на чём ваша аудитория реально останавливается.",
+        "en": "Trends, competitors, and what your audience actually stops for."
+      },
+      "1t": {
+        "ru": "Исследование и стратегия",
+        "en": "Research & Strategic Direction"
+      },
+      "2d": {
+        "ru": "Понятная система на месяц: темы, форматы, кампании и ритм публикаций.",
+        "en": "A clear monthly system: topics, formats, campaigns and publishing rhythm."
+      },
+      "2t": {
+        "ru": "Планирование контента и кампаний",
+        "en": "Content & Campaign Planning"
+      },
+      "3d": {
+        "ru": "Концепции, сценарии, референсы, ТЗ и координация креативной команды.",
+        "en": "Concepts, scripts, references, production briefs and coordination of the creative team."
+      },
+      "3t": {
+        "ru": "Управление креативным продакшном",
+        "en": "Creative Production Management"
+      },
+      "4d": {
+        "ru": "Планирование публикаций, система дистрибуции и AI-автоматизация для стабильной работы контента.",
+        "en": "Content scheduling, publishing systems and AI automation for a consistent workflow."
+      },
+      "4t": {
+        "ru": "Дистрибуция и автоматизация",
+        "en": "Distribution & Automation"
+      },
+      "5d": {
+        "ru": "Анализ результатов, поиск точек роста и оптимизация стратегии на основе данных.",
+        "en": "Tracking performance, identifying what drives growth and optimizing the strategy based on data."
+      },
+      "5t": {
+        "ru": "Анализ эффективности",
+        "en": "Performance Analysis"
+      },
+      "eyebrow": {
+        "ru": "Как идёт работа",
+        "en": "How the work runs"
+      },
+      "h2": {
+        "ru": "От стратегии до измеримого результата.",
+        "en": "From strategy to measurable results."
+      }
+    },
+    "stat": {
+      "leads": {
+        "ru": "лидов приведено клиентам",
+        "en": "leads delivered to clients"
+      },
+      "reach": {
+        "ru": "охвата в месяц на пике",
+        "en": "monthly reach at peak"
+      },
+      "reels": {
+        "ru": "Reels снято и упаковано",
+        "en": "Reels produced end to end"
+      },
+      "views": {
+        "ru": "подписчиков выращено клиентам",
+        "en": "followers grown for clients"
+      }
+    },
+    "svc": {
+      "1d": {
+        "ru": "Стратегия, позиционирование, контент-направления и точки роста под задачи бизнеса.",
+        "en": "Strategy, positioning, content pillars and growth direction built around your business goals."
+      },
+      "1t": {
+        "ru": "Стратегия соцсетей",
+        "en": "Social Media Strategy"
+      },
+      "2d": {
+        "ru": "Reels, сторителлинг, виральные механики и контент-системы для роста охватов и внимания.",
+        "en": "Reels, storytelling, viral mechanics and content systems designed to grow reach and attention."
+      },
+      "2t": {
+        "ru": "Контент-системы и виральность",
+        "en": "Content Systems & Virality"
+      },
+      "3d": {
+        "ru": "Концепции, референсы, сценарии, ТЗ и координация креативной команды.",
+        "en": "Concepts, references, scripts, production briefs and coordination of the creative team."
+      },
+      "3t": {
+        "ru": "Креативное руководство",
+        "en": "Creative Direction"
+      },
+      "4d": {
+        "ru": "AI-процессы, которые сокращают ручную работу, ускоряют продакшн и автоматизируют публикации.",
+        "en": "AI-powered workflows that reduce manual work, speed up production and simplify publishing."
+      },
+      "4t": {
+        "ru": "AI-контент и автоматизация",
+        "en": "AI Content & Automation"
+      },
+      "5d": {
+        "ru": "Исследование аудитории, воронки, эффективность кампаний и оптимизация на основе бизнес-метрик.",
+        "en": "Audience research, funnels, campaign performance and optimization based on business metrics."
+      },
+      "5t": {
+        "ru": "Digital-маркетинг и аналитика",
+        "en": "Digital Marketing & Analytics"
+      },
+      "eyebrow": {
+        "ru": "Что я делаю",
+        "en": "What I do"
+      },
+      "h2": {
+        "ru": "Пять направлений — каждое до результата.",
+        "en": "Five things, done properly."
+      }
+    },
+    "work": {
+      "eyebrow": {
+        "ru": "Избранные работы",
+        "en": "Selected work"
+      },
+      "h2": {
+        "ru": "Избранные работы. С цифрами.",
+        "en": "Selected work. Numbers included."
+      }
     }
   },
   "nums": {
-    "stat1": "757,962",
-    "stat2": "680",
-    "stat3": "3.5M",
+    "stat1": "5M",
+    "stat2": "2 000+",
+    "stat3": "20 000+",
     "stat4": "300+",
     "m1": "757,962",
     "m1d": "+124.85%",

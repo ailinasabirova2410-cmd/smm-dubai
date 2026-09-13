@@ -52,6 +52,7 @@
   "ct.tg": "@ailnsabr — отвечаю быстрее всего",
   "cta.results": "Смотреть результаты",
   "cta.tg": "Написать в Telegram",
+  "cta.wa": "Написать в WhatsApp",
   "f.contact": "Telegram или WhatsApp",
   "f.msg": "Что нужно?",
   "f.n1": "Luxury, fashion и lifestyle-бренды",
@@ -67,7 +68,7 @@
   "f.sent": "<b>Спасибо — заявка отправлена.</b><br>Отвечу в Telegram в течение нескольких часов.",
   "foot.copy": "© 2026 Айлина Сабирова · Стратегия соцсетей и Digital-маркетинг · Дубай, ОАЭ",
   "hero.eyebrow": "SMM · DIGITAL-СТРАТЕГИЯ · AI · ДУБАЙ",
-  "hero.h1": "Я превращаю соцсети в систему роста.<br><span class=\"on\">Стратегия, контент и маркетинг, которые работают на бизнес.</span>",
+  "hero.h1": "Соцсети, которые приводят клиентов.<br><span class=\"on\">Стратегия, контент и AI-система — под ключ.</span>",
   "hero.lede": "SMM, контент-стратегия, creative direction и AI-автоматизация для брендов, которым нужны охваты, сильное позиционирование и продажи.",
   "nav.about": "Обо мне",
   "nav.contact": "Контакты",
@@ -116,10 +117,10 @@
   "proc.5t": "Анализ эффективности",
   "proc.eyebrow": "Как идёт работа",
   "proc.h2": "От стратегии до измеримого результата.",
-  "stat.leads": "лида по 80 AED",
-  "stat.reach": "охват за 3 месяца",
-  "stat.reels": "снятых Reels",
-  "stat.views": "просмотров у одного Reels",
+  "stat.leads": "лидов приведено клиентам",
+  "stat.reach": "охвата в месяц на пике",
+  "stat.reels": "Reels снято и упаковано",
+  "stat.views": "подписчиков выращено клиентам",
   "svc.1d": "Стратегия, позиционирование, контент-направления и точки роста под задачи бизнеса.",
   "svc.1t": "Стратегия соцсетей",
   "svc.2d": "Reels, сторителлинг, виральные механики и контент-системы для роста охватов и внимания.",
@@ -133,7 +134,7 @@
   "svc.eyebrow": "Что я делаю",
   "svc.h2": "Пять направлений — каждое до результата.",
   "work.eyebrow": "Избранные работы",
-  "work.h2": "Четыре аккаунта — четыре разные задачи."
+  "work.h2": "Избранные работы. С цифрами."
 };
 
   var PRICES = {"reels": {"AED": [4500, 3500], "USD": [1225, 950], "RUB": [99000, 77000]}, "growth": {"AED": [6900, 5900], "USD": [1880, 1600], "RUB": [152000, 130000]}, "funnel": {"AED": [12500, 9900], "USD": [3400, 2700], "RUB": [275000, 218000]}};
@@ -285,6 +286,46 @@
     rises.forEach(function (el) { io.observe(el); });
   } else {
     rises.forEach(function (el) { el.classList.remove('pre'); });
+  }
+
+  /* ---- niches ticker: duplicate track for seamless loop ---- */
+  var track = document.getElementById('tickerTrack');
+  if (track) track.innerHTML += track.innerHTML;
+
+  /* ---- animated counters ---- */
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function animateCount(el) {
+    var raw = el.textContent.trim();
+    var m = raw.match(/^([^0-9]*)([\d.,\s\u00A0\u202F]*\d)(.*)$/);
+    if (!m) return;
+    var prefix = m[1], core = m[2], suffix = m[3];
+    var sep = core.indexOf(',') > -1 ? ',' : (/[\s\u00A0\u202F]/.test(core) ? '\u00A0' : '');
+    var isFloat = core.indexOf('.') > -1 && core.indexOf(',') === -1;
+    var target = parseFloat(core.replace(/[,\s\u00A0\u202F]/g, ''));
+    if (!isFinite(target)) return;
+    var t0 = null, dur = 1300;
+    function group(n) {
+      var s = isFloat ? n.toFixed(1) : Math.round(n).toString();
+      if (sep && !isFloat) s = s.replace(/\B(?=(\d{3})+(?!\d))/g, sep);
+      return s;
+    }
+    function frame(ts) {
+      if (!t0) t0 = ts;
+      var p = Math.min((ts - t0) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = prefix + group(target * eased) + suffix;
+      if (p < 1) requestAnimationFrame(frame);
+      else el.textContent = raw;
+    }
+    requestAnimationFrame(frame);
+  }
+  if (!reduced && 'IntersectionObserver' in window) {
+    var cio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { animateCount(en.target); cio.unobserve(en.target); }
+      });
+    }, { threshold: 0.6 });
+    document.querySelectorAll('[data-count]').forEach(function (el) { cio.observe(el); });
   }
 
   /* ---- lead form: Netlify Forms, WhatsApp fallback ---- */

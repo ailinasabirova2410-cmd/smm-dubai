@@ -16,12 +16,12 @@ def font(name, size, variation=None):
 
 # ---- og.jpg ----
 W, H = 1200, 630
-og = Image.new("RGB", (W, H), CREAM)
+og = Image.new("RGB", (W, H), BLACK)
 d = ImageDraw.Draw(og)
 
 # watermark "a"
 wm_f = font("Italianno.ttf", 620)
-d.text((-40, -140), "a", font=wm_f, fill=PINK)
+d.text((-40, -140), "a", font=wm_f, fill=(43, 36, 38))
 
 # portrait in arch on the right
 p = Image.open(ROOT / "img" / "hero.jpg").convert("RGB")
@@ -39,12 +39,12 @@ ad.rounded_rectangle([0, pw // 2 - 10, pw, ph], radius=24, fill=255)
 og.paste(p, (W - pw - 90, 55), arch)
 
 name_f = font("CormorantGaramond.ttf", 86, "Medium")
-d.text((90, 205), "Ailina Sabirova", font=name_f, fill=NAVY)
+d.text((90, 205), "Ailina Sabirova", font=name_f, fill=CREAM)
 sub_f = font("Manrope.ttf", 30, "SemiBold")
-d.text((92, 320), "SMM  ·  DIGITAL MARKETING  ·  AI", font=sub_f, fill=NAVY)
+d.text((92, 320), "SMM  ·  DIGITAL MARKETING  ·  AI", font=sub_f, fill=CREAM)
 d.text((92, 372), "DUBAI, UAE", font=sub_f, fill=PINK)
 site_f = font("Manrope.ttf", 26, "Medium")
-d.text((92, 500), "smm-dubai.com", font=site_f, fill=NAVY)
+d.text((92, 500), "smm-dubai.com", font=site_f, fill=PINK)
 og.save(ROOT / "og.jpg", quality=90)
 print("og.jpg", og.size)
 
