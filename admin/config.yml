@@ -1052,4 +1052,7 @@ collections:
               - { name: shef, label: "Кейс юриста (вертикальное)", widget: image, allow_multiple: false }
               - { name: buketi, label: "Кейс FloBerry (вертикальное)", widget: image, allow_multiple: false }
               - { name: leadgen, label: "График цены лида", widget: image, allow_multiple: false }
-              - { name: reach, label: "Коллаж Reels", widget: image, allow_multiple: false }
+              - { name: reel1, label: "Reels-витрина 1 (цветочный, вертикальное)", widget: image, allow_multiple: false }
+              - { name: reel2, label: "Reels-витрина 2 (обложка с просмотрами)", widget: image, allow_multiple: false }
+              - { name: reel3, label: "Reels-витрина 3 (обложка с просмотрами)", widget: image, allow_multiple: false }
+              - { name: reel4, label: "Reels-витрина 4 (обложка с просмотрами)", widget: image, allow_multiple: false }
