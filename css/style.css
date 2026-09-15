@@ -128,8 +128,8 @@ h1 .on,h2 .on{font-style:italic;color:var(--rose);font-weight:400}
 
 /* reels phone fan */
 .reels-fan{display:flex;align-items:center;justify-content:center;padding:10px 0}
-.reels-fan .phone{width:31%;aspect-ratio:9/17.5;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--ink-2);box-shadow:0 18px 44px rgba(0,0,0,.55);padding:0;position:relative;transition:transform .25s ease,z-index 0s}
-.reels-fan .phone+.phone{margin-left:-7%}
+.reels-fan .phone{width:26%;aspect-ratio:9/17.5;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--ink-2);box-shadow:0 18px 44px rgba(0,0,0,.55);padding:0;position:relative;transition:transform .25s ease,z-index 0s}
+.reels-fan .phone+.phone{margin-left:-6%}
 .reels-fan .phone:nth-child(odd){transform:rotate(-4deg)}
 .reels-fan .phone:nth-child(even){transform:rotate(3deg) translateY(10px)}
 .reels-fan .phone:hover{transform:rotate(0) translateY(-6px);z-index:3}
@@ -257,12 +257,12 @@ h1 .on,h2 .on{font-style:italic;color:var(--rose);font-weight:400}
 .hero-txt > :nth-child(2){animation-delay:.15s}
 .hero-txt > :nth-child(3){animation-delay:.25s}
 .hero-txt > :nth-child(4){animation-delay:.35s}
-.hero-photo{animation:riseIn 1s .2s cubic-bezier(.2,.7,.2,1) both}
-.stats .stat{animation:riseIn .8s both}
-.stats .stat:nth-child(1){animation-delay:.45s}
-.stats .stat:nth-child(2){animation-delay:.55s}
-.stats .stat:nth-child(3){animation-delay:.65s}
-.stats .stat:nth-child(4){animation-delay:.75s}
+.hero-photo{animation:riseIn .8s .5s cubic-bezier(.2,.7,.2,1) both}
+.stats .stat{animation:riseIn .7s both}
+.stats .stat:nth-child(1){animation-delay:.65s}
+.stats .stat:nth-child(2){animation-delay:.75s}
+.stats .stat:nth-child(3){animation-delay:.85s}
+.stats .stat:nth-child(4){animation-delay:.95s}
 @media (prefers-reduced-motion: reduce){
   .hero-txt > *,.hero-photo,.stats .stat{animation:none}
   .rise,.rise.pre{transition:none;opacity:1;transform:none}

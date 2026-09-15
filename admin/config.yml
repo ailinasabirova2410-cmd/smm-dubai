@@ -1056,3 +1056,4 @@ collections:
               - { name: reel2, label: "Reels-витрина 2 (обложка с просмотрами)", widget: image, allow_multiple: false }
               - { name: reel3, label: "Reels-витрина 3 (обложка с просмотрами)", widget: image, allow_multiple: false }
               - { name: reel4, label: "Reels-витрина 4 (обложка с просмотрами)", widget: image, allow_multiple: false }
+              - { name: reel5, label: "Reels-витрина 5 (еда, Shef-Babushka)", widget: image, allow_multiple: false }
