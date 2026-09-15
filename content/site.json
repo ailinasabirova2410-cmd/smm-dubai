@@ -10,12 +10,12 @@
         "en": "Strategy first. Content with a business purpose."
       },
       "lede": {
-        "ru": "Я работаю на стыке стратегии соцсетей, creative direction и digital-маркетинга. Выстраиваю контент-системы, которые усиливают позиционирование, растят охваты и превращают внимание в бизнес-результат — с AI и автоматизацией внутри процессов.",
-        "en": "I work at the intersection of social media strategy, creative direction and digital marketing. I build content systems that strengthen positioning, grow reach and turn attention into business results — with AI and automation built into the process."
+        "ru": "Я работаю на стыке стратегии соцсетей, creative direction и digital-маркетинга. Выстраиваю контент-системы, которые усиливают позиционирование, растят охваты и превращают внимание в бизнес-результат - с AI и автоматизацией внутри процессов.",
+        "en": "I work at the intersection of social media strategy, creative direction and digital marketing. I build content systems that strengthen positioning, grow reach and turn attention into business results - with AI and automation built into the process."
       },
       "quote": {
-        "ru": "Я не просто выполняю бриф — я нахожу точку роста, выстраиваю систему и веду процесс.",
-        "en": "I don’t just execute briefs — I find the opportunity, build the system and lead the process."
+        "ru": "Я не просто выполняю бриф - я нахожу точку роста, выстраиваю систему и веду процесс.",
+        "en": "I don’t just execute briefs - I find the opportunity, build the system and lead the process."
       }
     },
     "brand": {
@@ -42,7 +42,7 @@
         "en": "Branded podcast series launched and hosted"
       },
       "l3": {
-        "ru": "Создан ИИ-маскот «Proffer-man» — лицо бренда",
+        "ru": "Создан ИИ-маскот «Proffer-man» - лицо бренда",
         "en": "AI mascot “Proffer-man” created as brand identity"
       },
       "l4": {
@@ -86,8 +86,8 @@
         "en": "Lawyer's personal brand"
       },
       "l1": {
-        "ru": "AI-аватар вместо живой съемки — клиенту физически некогда было сниматься",
-        "en": "AI avatar built instead of live filming — client had zero time to shoot"
+        "ru": "AI-аватар вместо живой съемки - клиенту физически некогда было сниматься",
+        "en": "AI avatar built instead of live filming - client had zero time to shoot"
       },
       "l2": {
         "ru": "Сценарии и монтаж Reels с хуком в первые 3 секунды",
@@ -102,8 +102,8 @@
         "en": "Personal brand · Dubai"
       },
       "to": {
-        "ru": "0 заявок → первые горячие заявки на услуги в Дубае<br>Аккаунт с нуля вырос до 1 млн просмотров — ролики регулярно залетают на миллионы",
-        "en": "0 enquiries → first hot leads for Dubai services<br>Account grew from zero to 1M views — Reels regularly hit millions"
+        "ru": "0 заявок → первые горячие заявки на услуги в Дубае<br>Аккаунт с нуля вырос до 1 млн просмотров - ролики регулярно залетают на миллионы",
+        "en": "0 enquiries → first hot leads for Dubai services<br>Account grew from zero to 1M views - Reels regularly hit millions"
       }
     },
     "c4": {
@@ -112,12 +112,24 @@
         "en": "followers"
       },
       "l1": {
-        "ru": "Пересобрала визуальную концепцию аккаунта — единый стиль вместо разрозненных карточек",
-        "en": "Rebuilt the account's whole visual concept — one consistent style instead of scattered posts"
+        "ru": "Пересобрала визуальную концепцию аккаунта: единый стиль вместо разрозненных карточек - лента считывается с первого взгляда",
+        "en": "Rebuilt the account's visual concept: one consistent style instead of scattered posts - the grid reads at first glance"
       },
       "l2": {
-        "ru": "Полный цикл видео от идеи до готового Reels, плюс живая съемка на ивентах бренда",
-        "en": "Full video production from concept to finished Reels, plus live coverage of brand events"
+        "ru": "Подобрала моделей для съёмок - контент стал живым, а не каталожным: цветы это в первую очередь эмоция",
+        "en": "Cast models for the shoots - content became alive instead of catalogue-like: flowers are emotion first"
+      },
+      "l3": {
+        "ru": "Снимала на ивентах бренда, например зимние букеты - не только лента, но и живые моменты с мероприятий",
+        "en": "Shot at brand events, winter bouquets included - live moments, not just the feed"
+      },
+      "l4": {
+        "ru": "Монтаж видео полностью на мне: от идеи и сценария до готового Reels",
+        "en": "Owned the video edit end to end: from idea and script to the finished Reel"
+      },
+      "note": {
+        "ru": "Аккаунт стал выглядеть дороже без увеличения бюджета на съёмку",
+        "en": "The account started to look more expensive - with no increase in the shooting budget"
       },
       "tag": {
         "ru": "Цветы · Дубай",
@@ -198,8 +210,8 @@
         "en": "Email"
       },
       "tg": {
-        "ru": "@ailnsabr — отвечаю быстрее всего",
-        "en": "@ailnsabr — fastest reply"
+        "ru": "@ailnsabr - отвечаю быстрее всего",
+        "en": "@ailnsabr - fastest reply"
       }
     },
     "cta": {
@@ -266,8 +278,8 @@
         "en": "Send request"
       },
       "sent": {
-        "ru": "<b>Спасибо — заявка отправлена.</b><br>Отвечу в Telegram в течение нескольких часов.",
-        "en": "<b>Thanks — request sent.</b><br>\r\n          I'll reply in Telegram within a few hours."
+        "ru": "<b>Спасибо - заявка отправлена.</b><br>Отвечу в Telegram в течение нескольких часов.",
+        "en": "<b>Thanks - request sent.</b><br>\r\n          I'll reply in Telegram within a few hours."
       }
     },
     "foot": {
@@ -282,8 +294,8 @@
         "en": "SMM · DIGITAL STRATEGY · AI · DUBAI"
       },
       "h1": {
-        "ru": "Соцсети, которые приводят клиентов.<br><span class=\"on\">Стратегия, контент и AI-система — под ключ.</span>",
-        "en": "Social media that brings clients.<br><span class=\"on\">Strategy, content and an AI system — end to end.</span>"
+        "ru": "Соцсети, которые приводят клиентов.<br><span class=\"on\">Стратегия, контент и AI-система - под ключ.</span>",
+        "en": "Social media that brings clients.<br><span class=\"on\">Strategy, content and an AI system - end to end.</span>"
       },
       "lede": {
         "ru": "SMM, контент-стратегия, creative direction и AI-автоматизация для брендов, которым нужны охваты, сильное позиционирование и продажи.",
@@ -314,16 +326,16 @@
     },
     "num": {
       "1": {
-        "ru": "Охват — почти удвоился за счёт вирусных Reels",
-        "en": "Reach — nearly doubled on the back of viral Reels"
+        "ru": "Охват - почти удвоился за счёт вирусных Reels",
+        "en": "Reach - nearly doubled on the back of viral Reels"
       },
       "2": {
-        "ru": "Заходы в профиль — стабильный рост весь период",
-        "en": "Profile visits — steady growth across the period"
+        "ru": "Заходы в профиль - стабильный рост весь период",
+        "en": "Profile visits - steady growth across the period"
       },
       "3": {
-        "ru": "Клики по ссылке — в 3,5 раза больше на точном оффере и таргете",
-        "en": "Link clicks — 3.5× on a sharper offer and tighter targeting"
+        "ru": "Клики по ссылке - в 3,5 раза больше на точном оффере и таргете",
+        "en": "Link clicks - 3.5× on a sharper offer and tighter targeting"
       },
       "eyebrow": {
         "ru": "@proffer.ae · через 3 месяца",
@@ -430,8 +442,8 @@
         "en": "Monthly, no long lock-in. Ad budget is paid separately, directly to the platform."
       },
       "note": {
-        "ru": "Цены за месяц, без рекламного бюджета. Не знаете, что выбрать? Пришлите аккаунт — скажу честно, что нужно именно вам.",
-        "en": "Prices are per month and exclude ad spend. Not sure which fits? Send your account — I'll tell you honestly which one you need."
+        "ru": "Цены за месяц, без рекламного бюджета. Не знаете, что выбрать? Пришлите аккаунт - скажу честно, что нужно именно вам.",
+        "en": "Prices are per month and exclude ad spend. Not sure which fits? Send your account - I'll tell you honestly which one you need."
       },
       "per": {
         "ru": "в месяц",
@@ -556,7 +568,7 @@
         "en": "What I do"
       },
       "h2": {
-        "ru": "Пять направлений — каждое до результата.",
+        "ru": "Пять направлений - каждое до результата.",
         "en": "Five things, done properly."
       }
     },

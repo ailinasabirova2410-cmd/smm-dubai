@@ -193,8 +193,8 @@ collections:
                     label: "to"
                     widget: object
                     fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
+                      - { name: ru, label: "RU", widget: text }
+                      - { name: en, label: "EN", widget: text }
               - name: c4
                 label: "Кейс 4 — FloBerry Boutique"
                 widget: object
@@ -214,6 +214,24 @@ collections:
                       - { name: en, label: "EN", widget: text }
                   - name: "l2"
                     label: "l2"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: text }
+                      - { name: en, label: "EN", widget: text }
+                  - name: "l3"
+                    label: "l3"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: text }
+                      - { name: en, label: "EN", widget: text }
+                  - name: "l4"
+                    label: "l4"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "note"
+                    label: "note"
                     widget: object
                     fields:
                       - { name: ru, label: "RU", widget: string }
