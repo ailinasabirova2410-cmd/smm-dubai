@@ -192,6 +192,7 @@ h1 .on,h2 .on{font-style:italic;color:var(--rose);font-weight:400}
 .channels a{display:flex;align-items:center;gap:14px;background:rgba(31,43,72,.05);border:1px solid var(--line-ink);border-radius:16px;padding:14px 18px;transition:transform .15s ease}
 .channels a:hover{transform:translateY(-2px)}
 .channels i{font-family:var(--mono);font-style:normal;font-size:12px;letter-spacing:.06em;width:44px;height:44px;flex:0 0 44px;border-radius:50%;background:var(--ink);color:var(--ivory);display:flex;align-items:center;justify-content:center}
+.channels i svg{width:21px;height:21px}
 .channels b{display:block;font-size:15px}
 .channels small{font-size:13px;color:var(--ink-dim)}
 .lead-form{background:#fff;border-radius:var(--radius);padding:30px;display:flex;flex-direction:column;gap:16px;box-shadow:0 30px 70px rgba(31,43,72,.18)}
