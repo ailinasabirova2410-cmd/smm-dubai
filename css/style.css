@@ -186,6 +186,14 @@ h1 .on,h2 .on{font-style:italic;color:var(--rose);font-weight:400}
 .plan .btn{margin-top:auto}
 .plan.hot .btn{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
 
+/* reviews */
+.rev-grid{columns:3;column-gap:18px;margin-top:36px}
+.rev{break-inside:avoid;background:var(--ink-2);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px 24px;margin:0 0 18px;position:relative}
+.rev span{font-family:var(--display);font-size:56px;line-height:.6;color:var(--rose);display:block;margin-bottom:14px}
+.rev blockquote{font-size:14.5px;color:var(--ivory-dim);border:0;margin:0;padding:0}
+@media (max-width:1020px){.rev-grid{columns:2}}
+@media (max-width:700px){.rev-grid{columns:1}}
+
 /* contact — paper finale */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:start}
 .channels{display:flex;flex-direction:column;gap:12px;margin-top:28px}

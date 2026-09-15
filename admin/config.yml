@@ -716,6 +716,53 @@ collections:
                     fields:
                       - { name: ru, label: "RU", widget: text }
                       - { name: en, label: "EN", widget: text }
+              - name: rev
+                label: "Отзывы (5 карточек)"
+                widget: object
+                collapsed: true
+                fields:
+                  - name: "eyebrow"
+                    label: "eyebrow"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "h2"
+                    label: "h2"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "1"
+                    label: "1"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: text }
+                      - { name: en, label: "EN", widget: text }
+                  - name: "2"
+                    label: "2"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: text }
+                      - { name: en, label: "EN", widget: text }
+                  - name: "3"
+                    label: "3"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: text }
+                      - { name: en, label: "EN", widget: text }
+                  - name: "4"
+                    label: "4"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: text }
+                      - { name: en, label: "EN", widget: text }
+                  - name: "5"
+                    label: "5"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: text }
+                      - { name: en, label: "EN", widget: text }
               - name: pr
                 label: "Тарифы — заголовки"
                 widget: object
