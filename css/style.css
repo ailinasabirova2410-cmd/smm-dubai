@@ -58,7 +58,7 @@ h1 .on,h2 .on{font-style:italic;color:var(--rose);font-weight:400}
 #hdr{position:sticky;top:0;z-index:50;background:rgba(26,26,26,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 .bar{display:flex;align-items:center;gap:22px;height:76px}
 .brand{display:flex;align-items:center;gap:12px;margin-right:auto}
-.mark{width:44px;height:44px;flex:0 0 44px;border-radius:50%;background:var(--ivory);color:var(--ink);font-family:var(--hand);font-size:34px;line-height:1;display:flex;align-items:center;justify-content:center;padding-bottom:8px}
+.mark{width:44px;height:44px;flex:0 0 44px;border-radius:50%;border:1px solid var(--line);display:block}
 .brand-txt{display:flex;flex-direction:column;line-height:1.2}
 .brand-txt b{font-size:15px}
 .role{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ivory-dim)}
@@ -89,8 +89,8 @@ h1 .on,h2 .on{font-style:italic;color:var(--rose);font-weight:400}
 .cta-row{display:flex;gap:14px;margin-top:32px;flex-wrap:wrap}
 .hero-txt .lede{margin-top:22px}
 .hero-photo{position:relative;justify-self:center}
-.hero-photo img{width:min(400px,100%);border-radius:220px 220px var(--radius) var(--radius);position:relative;z-index:1;border:1px solid rgba(214,168,180,.45);padding:10px;background:var(--ink)}
-.wm{position:absolute;z-index:0;font-family:var(--hand);font-size:clamp(300px,34vw,480px);line-height:.6;color:var(--rose);opacity:.16;top:-8%;left:-34%;pointer-events:none;user-select:none}
+.hero-photo img:not(.wm){width:min(400px,100%);border-radius:220px 220px var(--radius) var(--radius);position:relative;z-index:1;border:1px solid rgba(214,168,180,.45);padding:10px;background:var(--ink)}
+.wm{position:absolute;z-index:0;width:clamp(300px,36vw,520px);height:auto;opacity:.2;top:4%;left:-30%;pointer-events:none;user-select:none}
 
 /* stats under hero */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;text-align:left;border-top:1px solid var(--line);margin-top:clamp(48px,7vw,80px);padding:clamp(28px,4vw,44px) 0}
