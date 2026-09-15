@@ -183,6 +183,18 @@ collections:
                     fields:
                       - { name: ru, label: "RU", widget: string }
                       - { name: en, label: "EN", widget: string }
+                  - name: "l4"
+                    label: "l4"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l5"
+                    label: "l5"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
                   - name: "tag"
                     label: "tag"
                     widget: object

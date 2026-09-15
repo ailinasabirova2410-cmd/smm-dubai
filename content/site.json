@@ -97,6 +97,14 @@
         "ru": "Система регулярных публикаций в Threads вместо разовых роликов",
         "en": "A regular Threads publishing system instead of one-off videos"
       },
+      "l4": {
+        "ru": "Сама создала AI-аватар клиента и настроила процесс генерации видео",
+        "en": "Built the client's AI avatar myself and set up the video generation pipeline"
+      },
+      "l5": {
+        "ru": "Веду весь процесс от сценария до публикации сама, без участия клиента",
+        "en": "I run the whole process from script to publishing, no client time needed"
+      },
       "tag": {
         "ru": "Личный бренд · Дубай",
         "en": "Personal brand · Dubai"
