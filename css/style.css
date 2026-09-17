@@ -186,22 +186,6 @@ h1 .on,h2 .on{font-style:italic;color:var(--rose);font-weight:400}
 .plan .btn{margin-top:auto}
 .plan.hot .btn{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
 
-/* reviews */
-.rev-grid{columns:3;column-gap:18px;margin-top:36px}
-.rev{break-inside:avoid;background:#28345C;border:1px solid rgba(241,236,227,.2);border-radius:var(--radius);padding:26px 24px 24px;margin:0 0 18px;position:relative;box-shadow:0 14px 34px rgba(0,0,0,.35)}
-.rev-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px}
-.rev .q{font-family:var(--display);font-size:52px;line-height:.5;color:var(--rose)}
-.rev .stars{color:var(--rose);font-size:13px;letter-spacing:.28em}
-.rev blockquote{font-size:14.5px;color:rgba(241,236,227,.78);border:0;margin:0;padding:0}
-.rev:nth-child(1){padding:32px 28px 28px}
-.rev:nth-child(1) blockquote{font-size:15.5px}
-.rev:nth-child(3){background:var(--ivory);border-color:var(--ivory)}
-.rev:nth-child(3) blockquote{color:rgba(31,43,72,.82)}
-.rev:nth-child(3) .q,.rev:nth-child(3) .stars{color:#C58E9D}
-.rev:nth-child(5){background:var(--ink-2)}
-@media (max-width:1020px){.rev-grid{columns:2}}
-@media (max-width:700px){.rev-grid{columns:1}}
-
 /* contact — paper finale */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:start}
 .channels{display:flex;flex-direction:column;gap:12px;margin-top:28px}
