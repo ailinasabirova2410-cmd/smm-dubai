@@ -355,6 +355,10 @@
       }
     },
     "p1": {
+      "f0": {
+        "ru": "Площадки: Instagram, TikTok, LinkedIn",
+        "en": "Platforms: Instagram, TikTok, LinkedIn"
+      },
       "f1": {
         "ru": "AI-инструменты и автоматизация контент-процессов",
         "en": "AI tools and content process automation"
@@ -377,6 +381,10 @@
       }
     },
     "p2": {
+      "f0": {
+        "ru": "Ведение Instagram, TikTok и LinkedIn",
+        "en": "Instagram, TikTok and LinkedIn management"
+      },
       "f1": {
         "ru": "Аналитика, оптимизация и AI-автоматизация",
         "en": "Analytics, optimization and AI automation"
@@ -407,6 +415,10 @@
       }
     },
     "p3": {
+      "f0": {
+        "ru": "Ведение Instagram, TikTok и LinkedIn",
+        "en": "Instagram, TikTok and LinkedIn management"
+      },
       "f1": {
         "ru": "Исследование рынка, конкурентов и целевой аудитории",
         "en": "Market, competitor & target audience research"

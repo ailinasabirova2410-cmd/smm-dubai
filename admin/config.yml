@@ -592,6 +592,12 @@ collections:
                 widget: object
                 collapsed: true
                 fields:
+                  - name: "f0"
+                    label: "Соцсети (первая строка)"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
                   - name: "f1"
                     label: "f1"
                     widget: object
@@ -627,6 +633,12 @@ collections:
                 widget: object
                 collapsed: true
                 fields:
+                  - name: "f0"
+                    label: "Соцсети (первая строка)"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
                   - name: "f1"
                     label: "f1"
                     widget: object
@@ -674,6 +686,12 @@ collections:
                 widget: object
                 collapsed: true
                 fields:
+                  - name: "f0"
+                    label: "Соцсети (первая строка)"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
                   - name: "f1"
                     label: "f1"
                     widget: object
