@@ -145,6 +145,18 @@ h1 .on,h2 .on{font-style:italic;color:var(--rose);font-weight:400}
 .wall .cases{margin-top:16px}
 .wall .case{border-top-color:var(--line)}
 
+/* case extras */
+.ba .to.big{font-size:clamp(40px,4.6vw,60px)}
+.cmetrics{display:flex;gap:clamp(16px,3vw,34px);flex-wrap:wrap;margin-top:16px}
+.cmetrics b{font-family:var(--display);font-weight:500;font-size:24px;color:var(--champagne);display:block;line-height:1.1;font-variant-numeric:tabular-nums}
+.cmetrics small{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ivory-dim)}
+.case-media.capped img{width:100%;height:auto;max-height:560px;object-fit:cover;object-position:top}
+.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:clamp(36px,5vw,56px);padding:clamp(24px,3.5vw,40px) 0}
+.strip b{font-family:var(--display);font-weight:500;font-size:clamp(32px,3.8vw,52px);display:block;color:var(--champagne);line-height:1.05;font-variant-numeric:tabular-nums}
+.strip small{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ivory-dim)}
+.pdf-cta{margin-top:30px}
+@media (max-width:700px){.strip{grid-template-columns:1fr;gap:18px}.pdf-cta .btn{width:100%}}
+
 /* services — editorial index */
 .svc-list{margin-top:36px;display:flex;flex-direction:column}
 .svc{display:grid;grid-template-columns:64px 320px 1fr;gap:clamp(16px,3vw,32px);padding:26px 0;border-top:1px solid var(--line);align-items:baseline}

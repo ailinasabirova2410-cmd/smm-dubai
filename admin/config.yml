@@ -72,270 +72,6 @@ collections:
                     fields:
                       - { name: ru, label: "RU", widget: string }
                       - { name: en, label: "EN", widget: string }
-              - name: c1
-                label: "Кейс 1 — Proffer.ae"
-                widget: object
-                collapsed: true
-                fields:
-                  - name: "cap"
-                    label: "cap"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l1"
-                    label: "l1"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l2"
-                    label: "l2"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l3"
-                    label: "l3"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l4"
-                    label: "l4"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "tag"
-                    label: "tag"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-              - name: c2
-                label: "Кейс 2 — Etagi Dubai"
-                widget: object
-                collapsed: true
-                fields:
-                  - name: "cap"
-                    label: "cap"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l1"
-                    label: "l1"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l2"
-                    label: "l2"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l3"
-                    label: "l3"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "tag"
-                    label: "tag"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-              - name: c3
-                label: "Кейс 3 — Личный бренд юриста"
-                widget: object
-                collapsed: true
-                fields:
-                  - name: "cap"
-                    label: "cap"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "h"
-                    label: "h"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l1"
-                    label: "l1"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l2"
-                    label: "l2"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l3"
-                    label: "l3"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l4"
-                    label: "l4"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l5"
-                    label: "l5"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "tag"
-                    label: "tag"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "to"
-                    label: "to"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: text }
-                      - { name: en, label: "EN", widget: text }
-              - name: c4
-                label: "Кейс 4 — FloBerry Boutique"
-                widget: object
-                collapsed: true
-                fields:
-                  - name: "cap"
-                    label: "cap"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l1"
-                    label: "l1"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: text }
-                      - { name: en, label: "EN", widget: text }
-                  - name: "l2"
-                    label: "l2"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: text }
-                      - { name: en, label: "EN", widget: text }
-                  - name: "l3"
-                    label: "l3"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: text }
-                      - { name: en, label: "EN", widget: text }
-                  - name: "l4"
-                    label: "l4"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "note"
-                    label: "note"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "tag"
-                    label: "tag"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-              - name: c5
-                label: "Кейс 5 — Лидогенерация"
-                widget: object
-                collapsed: true
-                fields:
-                  - name: "cap"
-                    label: "cap"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "h"
-                    label: "h"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l1"
-                    label: "l1"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l2"
-                    label: "l2"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l3"
-                    label: "l3"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "tag"
-                    label: "tag"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-              - name: c6
-                label: "Кейс 6 — Библиотека Reels (и бегущая строка ниш)"
-                widget: object
-                collapsed: true
-                fields:
-                  - name: "cap"
-                    label: "cap"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "h"
-                    label: "h"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l1"
-                    label: "l1"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l2"
-                    label: "l2"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "l3"
-                    label: "l3"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "tag"
-                    label: "tag"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
               - name: ct
                 label: "Контакты"
                 widget: object
@@ -552,48 +288,13 @@ collections:
                     fields:
                       - { name: ru, label: "RU", widget: string }
                       - { name: en, label: "EN", widget: string }
-              - name: num
-                label: "Цифры Proffer — подписи"
-                widget: object
-                collapsed: true
-                fields:
-                  - name: "1"
-                    label: "1"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "2"
-                    label: "2"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "3"
-                    label: "3"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "eyebrow"
-                    label: "eyebrow"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
-                  - name: "h2"
-                    label: "h2"
-                    widget: object
-                    fields:
-                      - { name: ru, label: "RU", widget: string }
-                      - { name: en, label: "EN", widget: string }
               - name: p1
                 label: "Тариф Reels Pack"
                 widget: object
                 collapsed: true
                 fields:
                   - name: "f0"
-                    label: "Соцсети (первая строка)"
+                    label: "f0"
                     widget: object
                     fields:
                       - { name: ru, label: "RU", widget: string }
@@ -634,7 +335,7 @@ collections:
                 collapsed: true
                 fields:
                   - name: "f0"
-                    label: "Соцсети (первая строка)"
+                    label: "f0"
                     widget: object
                     fields:
                       - { name: ru, label: "RU", widget: string }
@@ -687,7 +388,7 @@ collections:
                 collapsed: true
                 fields:
                   - name: "f0"
-                    label: "Соцсети (первая строка)"
+                    label: "f0"
                     widget: object
                     fields:
                       - { name: ru, label: "RU", widget: string }
@@ -881,6 +582,29 @@ collections:
                     fields:
                       - { name: ru, label: "RU", widget: string }
                       - { name: en, label: "EN", widget: string }
+              - name: strip
+                label: "Полоса итогов под кейсами (подписи)"
+                widget: object
+                collapsed: true
+                fields:
+                  - name: "s1"
+                    label: "s1"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "s2"
+                    label: "s2"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "s3"
+                    label: "s3"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
               - name: svc
                 label: "Услуги (5 направлений)"
                 widget: object
@@ -958,8 +682,272 @@ collections:
                     fields:
                       - { name: ru, label: "RU", widget: string }
                       - { name: en, label: "EN", widget: string }
+              - name: tick
+                label: "Бегущая строка ниш"
+                widget: object
+                collapsed: true
+                fields:
+                  - name: "t1"
+                    label: "t1"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "t2"
+                    label: "t2"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "t3"
+                    label: "t3"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+              - name: w1
+                label: "Кейс 1 — Цветочный бренд"
+                widget: object
+                collapsed: true
+                fields:
+                  - name: "tag"
+                    label: "tag"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "h"
+                    label: "h"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l1"
+                    label: "l1"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l2"
+                    label: "l2"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l3"
+                    label: "l3"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "r1c"
+                    label: "r1c"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "note"
+                    label: "note"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+              - name: w2
+                label: "Кейс 2 — Юрист (AI-аватар)"
+                widget: object
+                collapsed: true
+                fields:
+                  - name: "tag"
+                    label: "tag"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "h"
+                    label: "h"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l1"
+                    label: "l1"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l2"
+                    label: "l2"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l3"
+                    label: "l3"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "r1c"
+                    label: "r1c"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "note"
+                    label: "note"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+              - name: w3
+                label: "Кейс 3 — Proffer.ae"
+                widget: object
+                collapsed: true
+                fields:
+                  - name: "tag"
+                    label: "tag"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "h"
+                    label: "h"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l1"
+                    label: "l1"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l2"
+                    label: "l2"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l3"
+                    label: "l3"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "r1c"
+                    label: "r1c"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "m1c"
+                    label: "m1c"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "m2c"
+                    label: "m2c"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "m3c"
+                    label: "m3c"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "note"
+                    label: "note"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+              - name: w4
+                label: "Кейс 4 — Etagi Dubai"
+                widget: object
+                collapsed: true
+                fields:
+                  - name: "tag"
+                    label: "tag"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "h"
+                    label: "h"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l1"
+                    label: "l1"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l2"
+                    label: "l2"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l3"
+                    label: "l3"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "r1c"
+                    label: "r1c"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "note"
+                    label: "note"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+              - name: w5
+                label: "Кейс 5 — Доставка еды (визуальный)"
+                widget: object
+                collapsed: true
+                fields:
+                  - name: "tag"
+                    label: "tag"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "h"
+                    label: "h"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l1"
+                    label: "l1"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l2"
+                    label: "l2"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
+                  - name: "l3"
+                    label: "l3"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
               - name: work
-                label: "Работы — заголовок"
+                label: "Работы: заголовок и кнопка PDF"
                 widget: object
                 collapsed: true
                 fields:
@@ -975,8 +963,14 @@ collections:
                     fields:
                       - { name: ru, label: "RU", widget: string }
                       - { name: en, label: "EN", widget: string }
+                  - name: "pdf"
+                    label: "pdf"
+                    widget: object
+                    fields:
+                      - { name: ru, label: "RU", widget: string }
+                      - { name: en, label: "EN", widget: string }
           - name: nums
-            label: "Цифры (охваты, лиды, подписчики)"
+            label: "Цифры главного экрана"
             widget: object
             collapsed: true
             fields:
@@ -984,21 +978,6 @@ collections:
               - { name: stat2, label: "Главный экран — лиды", widget: string }
               - { name: stat3, label: "Главный экран — подписчики", widget: string }
               - { name: stat4, label: "Главный экран — Reels", widget: string }
-              - { name: m1, label: "Proffer — охват", widget: string }
-              - { name: m1d, label: "Proffer — охват, %", widget: string }
-              - { name: m2, label: "Proffer — визиты", widget: string }
-              - { name: m2d, label: "Proffer — визиты, %", widget: string }
-              - { name: m3, label: "Proffer — клики", widget: string }
-              - { name: m3d, label: "Proffer — клики, %", widget: string }
-              - { name: c1from, label: "Proffer — было", widget: string }
-              - { name: c1to, label: "Proffer — стало", widget: string }
-              - { name: c2from, label: "Etagi — было", widget: string }
-              - { name: c2to, label: "Etagi — стало", widget: string }
-              - { name: c4from, label: "FloBerry — было", widget: string }
-              - { name: c4to, label: "FloBerry — стало", widget: string }
-              - { name: c5from, label: "Цена лида — было", widget: string }
-              - { name: c5to, label: "Цена лида — стало", widget: string }
-              - { name: c6to, label: "Reels — рекорд просмотров", widget: string }
           - name: prices
             label: "Цены"
             widget: object
@@ -1075,15 +1054,10 @@ collections:
             widget: object
             collapsed: true
             fields:
-              - { name: hero, label: "Портрет на главном экране (вертикальное)", widget: image, allow_multiple: false }
-              - { name: photo, label: "Фото «Обо мне» (вертикальное)", widget: image, allow_multiple: false }
-              - { name: proffer, label: "Кейс Proffer (горизонтальное)", widget: image, allow_multiple: false }
-              - { name: etagi, label: "Кейс Etagi (горизонтальное)", widget: image, allow_multiple: false }
-              - { name: shef, label: "Кейс юриста (вертикальное)", widget: image, allow_multiple: false }
-              - { name: buketi, label: "Кейс FloBerry (вертикальное)", widget: image, allow_multiple: false }
-              - { name: leadgen, label: "График цены лида", widget: image, allow_multiple: false }
-              - { name: reel1, label: "Reels-витрина 1 (цветочный, вертикальное)", widget: image, allow_multiple: false }
-              - { name: reel2, label: "Reels-витрина 2 (обложка с просмотрами)", widget: image, allow_multiple: false }
-              - { name: reel3, label: "Reels-витрина 3 (обложка с просмотрами)", widget: image, allow_multiple: false }
-              - { name: reel4, label: "Reels-витрина 4 (обложка с просмотрами)", widget: image, allow_multiple: false }
-              - { name: reel5, label: "Reels-витрина 5 (еда, Shef-Babushka)", widget: image, allow_multiple: false }
+              - { name: hero, label: "Портрет на главном экране", widget: image, allow_multiple: false }
+              - { name: photo, label: "Фото «Обо мне»", widget: image, allow_multiple: false }
+              - { name: buketi, label: "Кейс 1 — цветочный бренд", widget: image, allow_multiple: false }
+              - { name: shef, label: "Кейс 2 — юрист", widget: image, allow_multiple: false }
+              - { name: proffer, label: "Кейс 3 — Proffer", widget: image, allow_multiple: false }
+              - { name: etagi, label: "Кейс 4 — Etagi", widget: image, allow_multiple: false }
+              - { name: food, label: "Кейс 5 — доставка еды", widget: image, allow_multiple: false }
